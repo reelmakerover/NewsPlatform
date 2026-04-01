@@ -1,0 +1,14 @@
+{
+  "name": "newsplatform",
+  "version": "1.0.0",
+  "description": "IndiaInk — Full-stack MERN news platform",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install && cd ../admin && npm install",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "dev:admin": "cd admin && npm run dev",
+    "seed": "cd server && npm run seed",
+    "build:client": "cd client && npm run build",
+    "build:admin": "cd admin && npm run build"
+  }
+}
